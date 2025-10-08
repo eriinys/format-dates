@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Date: " + date.format(dateFormat));
         System.out.println("Date: " + date);
         System.out.println("Date: " + date.format(dateFormat2));
-        System.out.println("Date & Time: " + gmtDateTime.format(dateTimeFormat));
+        System.out.println("Date & Time in GMT: " + gmtDateTime.format(dateTimeFormat));
         System.out.println(time.format(timeChallenge) + " on " + date.format(dateChallenge));
     }
 }
